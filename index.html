@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misi Kecil 💗</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <div class="game-window">
+        <div class="window-header">
+            <span class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+            </span>
+            <span class="window-title">💌 Valentine Quest</span>
+        </div>
+
+        <div class="window-content">
+            <!-- CUTE CAT -->
+            <div class="cute-cat">
+                <div class="cat-ear left"></div>
+                <div class="cat-ear right"></div>
+                <div class="cat-head">
+                    <div class="cat-eye left">
+                        <div class="eye-shine"></div>
+                    </div>
+                    <div class="cat-eye right">
+                        <div class="eye-shine"></div>
+                    </div>
+                    <div class="cat-cheek left"></div>
+                    <div class="cat-cheek right"></div>
+                    <div class="cat-nose"></div>
+                    <div class="cat-mouth"></div>
+                </div>
+                <div class="cat-body">
+                    <div class="cat-paw left">
+                        <div class="paw-pad"></div>
+                    </div>
+                    <div class="cat-paw right">
+                        <div class="paw-pad"></div>
+                    </div>
+                </div>
+                <div class="cat-tail"></div>
+            </div>
+
+            <h1 class="title">MISI KECIL:</h1>
+            <h2 class="subtitle">Boleh aku jadi Valentine kamu?</h2>
+            <p class="hint">Aku nanya pelan-pelan aja…</p>
+
+            <div class="play-area" id="playArea">
+                <button class="btn btn-yes" id="btnYes">
+                    <span class="btn-text">IYA</span>
+                    <span class="sparkles"></span>
+                </button>
+                <button class="btn btn-no" id="btnNo">NGGAK</button>
+            </div>
+
+            <p class="reassurance">Serius, kalau kamu nggak mau juga nggak apa-apa. Makasih udah baca. 💗</p>
+
+            <div class="motion-toggle">
+                <label class="toggle-label">
+                    <input type="checkbox" id="reduceMotion">
+                    <span class="toggle-switch"></span>
+                    <span class="toggle-text">Mode adem (kurangi gerak)</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="bubble" id="bubble" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
